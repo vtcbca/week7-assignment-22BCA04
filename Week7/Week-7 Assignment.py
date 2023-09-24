@@ -46,7 +46,7 @@ print(df)
 #3.Change Column Name
 
 df.columns=['Product No','Product Name','January','February','March','April','May','June']
-df
+print(df)
 
 
 #4.Add column "Total Sell" to count total of all month and "Average Sell"
