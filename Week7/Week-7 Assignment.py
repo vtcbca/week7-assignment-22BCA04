@@ -86,8 +86,8 @@ print(df[(df["January"] > 5000) & (df["February"] > 8000)][["Product No", "Produ
 sorted_name=df.sort_values(by='Product Name')
 sorted_name
 
-#display in a odd index number
+#14.display in a odd index number
 df.loc[1::2]
 
-#Print Alternate row.
+#15.Print Alternate row.
 df.loc[::2]
