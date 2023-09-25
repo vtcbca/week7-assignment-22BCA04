@@ -53,6 +53,11 @@ print(df)
 
 df['Total Sell']=df['January']+df['February']+df['March']+df['April']+df['May']+df['June']
 print(df)
+#it add the total column of all months
+
+df['Average']=df['Totall Sell']/6
+print(df)
+#it add the Average sell column of all months
 
 #5.Add 2 row at the end.
 
