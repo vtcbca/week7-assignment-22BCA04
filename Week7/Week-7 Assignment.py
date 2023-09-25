@@ -63,6 +63,11 @@ df.loc[13]=[14,'Head-phone',6500,7200,3600,4500,9000,6000,36800]
 print(df)
 
 #6.Add 2 rows after 3rd row.
+df.loc[2.5]=[15,'Music Player',5000,5000,5000,5000,5000,5000,30000]
+df.loc[2.6]=[16,'Sound System',6000,6000,6000,6000,6000,6000,36000]
+df=df.sort_index().reset_index(drop=True)
+df
+
 #7.Display first 5 rows
 df.head()
 
